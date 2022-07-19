@@ -6,12 +6,11 @@
     }
     while (inicio != "esc" && inicio == 'empezar') {
 
-        function sumarEdades(sumaUno, sumaDos, sumaTres) {
+        const sumarEdades = (sumaUno, sumaDos, sumaTres) =>{
             let suma = sumaUno + sumaDos + sumaTres
             return suma
         }
-    
-        function promedioDeEdad() {
+        const promedioDeEdad = () => {
             let edadUno = parseFloat(prompt("Ingrese la primer edad para calcular el promedio"))
             let edadDos = parseFloat(prompt("Ingrese la segunda edad para calcular el promedio"))
             let edadTres = parseFloat(prompt("Ingrese la tercer edad para calcular el promedio"))
